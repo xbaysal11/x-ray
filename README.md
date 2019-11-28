@@ -8,14 +8,6 @@
      Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video.
 </p>
 
-
-# Collaborators
-
-- 1.Nasip Salmakhunov
-- 2.Aidarbek Zamirbekov
-- 3.Abdrakhman Niyazahunov
-- 4.Baisalbek Daniiarov
-
 # How it works
 
 The data is stored in the DCT coefficients of the JPEG file. The last n bits of the DC value, and last few bits of the AC values are used (these can be set before hiding data in the image).
@@ -31,3 +23,11 @@ Then, a key is derived from the password using scrypt (N: 32768, r: 16, p: 2, dk
 - [crypto-js](https://github.com/brix/crypto-js)
 - [setImmediate](https://github.com/YuzuJS/setImmediate)
 - [scrypt-async-js](https://github.com/dchest/scrypt-async-js)
+
+
+# Collaborators
+
+- 1.Nasip Salmakhunov
+- 2.Aidarbek Zamirbekov
+- 3.Abdrakhman Niyazahunov
+- 4.Baisalbek Daniiarov
